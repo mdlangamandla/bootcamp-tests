@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+</head>
+
+<body>
+    <div id="mocha"></div>
+    <script>
+        mocha.setup('bdd');
+        var assert = chai.assert;
+    </script>
+
+    <script src="tests.js" charset="utf-8"></script>
+
+
+    <script src="../functions/greet.js"></script>
+    <script src="../test/greet.tests.js"></script>
+
+    <script src="../functions/isFromBellville.js"></script>
+    <script src="../test/isFromBellville.tests.js"></script>
+
+   
+    <script src="../functions/regCheck.js"></script>
+    <script src="../test/regCheck.tests.js"></script>
+
+
+    <script src="../fumctions/countRegNumber.js"></script>
+    <script src="../test/countRegNumber.tests.js"></script>
+
+
+    <script src="../functions/isWeekday.js"></script>
+    <script src="../test/isWeekday.tests.js"></script>
+
+
+    <script src="../functions/yearsAgo.js"></script>
+    <script src="../test/yearsAgo.tests.js"></script>
+
+
+    <script src="../functions/countAllPaarl.js"></script>
+    <script src="../test/countAllPaarl.tests.js"></script>
+
+    <script src="../functions/countAllFromTown.js"></script>
+    <script src="../test/countAllFromTown.tests.js"></script>
+
+
+    <script src="../functions/transportFee.js"></script>
+    <script src="../test/transportFee.tests.js"></script>
+
+
+    <script src="../functions/totalPhoneBill.js"></script>
+    <script src="../test/totalPhoneBill.tests.js"></script>
+
+
+    <script src="../functions/fromWhere.js"></script>
+    <script src="../test/fromWhere.tests.js"></script>
+
+    <script src="../functions/findItemsOver20.js"></script>
+    <script src="../test/findItemsOver20.tests.js"></script>
+
+
+    <script src="../functions/findItemsOver.js"></script>
+    <script src="../test/findItemsOver.tests.js"></script>
+
+    <script src="../functions/mostProfitableDepartment.js"></script>
+    <script src="../test/mostProfitableDepartment.tests.js"></script>
+
+
+
+    <script>
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+</body>
+
+</html>
