@@ -1,10 +1,10 @@
 describe('The fromWhere function', function() {
 
-    it('should return Bellville for CY.', function() {    
+    it('should return Bellville for CY location.', function() {    
         assert.equal('Bellville', fromWhere('CY 182736'));
 
     });
-    it('should return Paarl for CJ.', function() {
+    it('should return Paarl for CJ location.', function() {
        
         assert.equal('Paarl', fromWhere('CJ 182141'));
     });
